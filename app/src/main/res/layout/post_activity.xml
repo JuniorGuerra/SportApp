@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostActivity"
+    android:background="@color/colorBackgrund">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30sp"
+            android:layout_marginRight="30sp"
+            android:layout_marginLeft="30sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/category"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginRight="30sp"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/frlEspalda"
+                    android:layout_width="match_parent"
+                    android:layout_height="130sp"
+                    android:background="@drawable/esplada"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/espalda"
+                        android:textColor="@color/colorBackgrund"
+                        android:textSize="20sp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frlBrazo"
+                    android:layout_width="match_parent"
+                    android:layout_height="130sp"
+                    android:layout_marginTop="30sp"
+                    android:background="@drawable/brazo">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/brazo"
+                        android:textColor="@color/colorBackgrund"
+                        android:textSize="20sp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frlPerna"
+                    android:layout_width="match_parent"
+                    android:layout_height="130sp"
+                    android:layout_marginTop="30sp"
+                    android:background="@drawable/piernas">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/pierna"
+                        android:textColor="@color/colorBackgrund"
+                        android:textSize="20sp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frlAbdomen"
+                    android:layout_width="match_parent"
+                    android:layout_height="130sp"
+                    android:layout_marginTop="30sp"
+                    android:background="@drawable/abdomen"
+                    >
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/abdomen"
+                        android:textColor="@color/colorBackgrund"
+                        android:textSize="20sp"
+                        />
+
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/frlManos"
+                    android:layout_width="match_parent"
+                    android:layout_height="100sp"
+                    android:layout_marginTop="30sp"
+
+                    android:background="@drawable/manos"
+                    >
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/manos"
+                        android:textColor="@color/colorBackgrund"
+                        android:textSize="20sp"
+                        />
+
+                </FrameLayout>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="2021"
+                    android:textColor="@color/colorBackgrund"
+                    android:textSize="20sp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
