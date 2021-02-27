@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">SportApp</string>
+    <!-- Strings related to login -->
+    <string name="Login">Iniciar Sesión</string>
+    <string name="message">Por favor ingrese sus datos a continuación</string>
+    <string name="recuperate">Olvidó su contraseña?</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintPassword">Contraseña</string>
+    <string name="btnLogin">Iniciar</string>
+    <string name="count">No tiene una cuenta?</string>
+    <string name="register">Registrese</string>
+    <!--End string to login-->
+
+    <!--String from register-->
+    <string name="title">Crear cuenta</string>
+    <string name="username">Nombre</string>
+    <string name="message2">Porfavor llene todos los campos</string>
+    <string name="register2">Registrarse</string>
+    <string name="countExist">Ya tiene una cuenta</string>
+    <string name="back">Iniciar Sesión</string>
+    <string name="hintUsername">Nombre de usuario</string>
+    <string name="messagefirts">Esta es una app simple con diseño minimalista entendible y simple para que todos los usuarios podamos aprender de ella sin ninguna dificultad tecnica ya que es una app informativa sobre estiramientos deportivos</string>
+
+    <!--End string from register-->
+
+    <!--Gym String-->
+    <string name="logout">Cerrar sesión</string>
+    <string name="message3">Hola esta es una app de estiramiento deportivos, los mejores estiramientos deportivos</string>
+    <string name="ir">Continuar</string>
+    <string name="Autor">Datos de autor</string>
+    <!--End Gym String-->
+
+    <!--PostActivity-->
+
+    <string name="category">Seleccione una categoria</string>
+    <string name="espalda">Espalda</string>
+    <string name="brazo">Brazo</string>
+    <string name="pierna">Pierna</string>
+    <string name="abdomen">Abdomen</string>
+    <string name="message4">Seleccione uno de los estiramientos</string>
+    <string name="manos">Manos</string>
+
+    <!--End post activity-->
+
+
+    <!--Ejercice Activity-->
+
+    <string name="information">Información</string>
+    <string name="next">Siguiente</string>
+    <string name="back2">Anterior</string>
+
+
+    <!--End Ejercice Activity-->
+
+</resources>
